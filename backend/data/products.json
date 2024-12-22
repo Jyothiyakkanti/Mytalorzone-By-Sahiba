@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Traditional Saree",
+      "category": "Traditional",
+      "price": 5000,
+      "image": "/assets/images/saree1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Western Dress",
+      "category": "Western",
+      "price": 2500,
+      "image": "/assets/images/dress1.jpg"
+    }
+  ]
+  

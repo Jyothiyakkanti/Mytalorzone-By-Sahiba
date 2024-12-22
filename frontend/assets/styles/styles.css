@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url('ms.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid black;
+}
+
+/** box2 **/
+/* .add-first {
+    color: #f0e5e5;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+} */ 
+

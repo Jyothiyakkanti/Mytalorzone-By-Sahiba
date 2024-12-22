@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Mytalorzone by Sahiba</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="ms.png" alt=" MS Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="cart.html" class="link">Cart <i class="fa-solid fa-cart-plus"></i></a>
+        </div>
+    </header>
+
+    <!-- Sign In Form -->
+    <main>
+        <div class="signin-form">
+            <h2>Sign In</h2>
+            <form action="/api/signin" method="POST" id="signinForm">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Sign In</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <p>
+                © 2024 <a href="https://www.mytalorzonebysahiba.com" target="_blank" rel="noopener noreferrer">Mytalorzone by Sahiba</a>. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

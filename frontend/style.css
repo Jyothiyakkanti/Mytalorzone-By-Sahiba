@@ -1,0 +1,132 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* .add-first{
+    color: aliceblue;
+    font-size: 0.85rem;
+    margin-left: 3px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+} */
+    
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.search-bar select, 
+.search-bar input, 
+.search-bar button {
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links .link {
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Banner Section */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Product Section */
+.product-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #e7e9eb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styling for the nav links */
+.nav-links .link {
+    color: white; /* Set the default color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add padding for spacing */
+    font-size: 16px; /* Adjust font size if needed */
+    transition: color 0.3s ease; /* Smooth transition effect when hover */
+}
+
+/* Change color on hover */
+.nav-links .link:hover {
+    color: #ff6347; /* Change to tomato red when hovered */
+}
+
+/* If you want to change the color of icons as well */
+.nav-links .link i {
+    margin-left: 5px; /* Add space between the text and the icon */
+    color: inherit; /* Inherit color from the link */
+}
+
+.nav-links .link:hover i {
+    color: inherit; /* Keep the icon's color consistent with the text color */
+}

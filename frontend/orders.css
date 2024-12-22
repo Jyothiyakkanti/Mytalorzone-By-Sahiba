@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Orders Page Styles */
+.orders-page {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.orders-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.orders-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-table th, .orders-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.orders-table th {
+    background-color: #333;
+    color: white;
+}
+
+.orders-table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.orders-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .footer-links p {
+    font-size: 14px;
+}
+
+footer .footer-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
